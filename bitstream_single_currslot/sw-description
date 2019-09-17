@@ -9,7 +9,7 @@ software =
 				filename = "fpga.tar.gz";
 				type = "archive";
 				compressed = true;
-				device = "/dev/mmcblk1p1";
+				device = "/dev/boot_update_node";
 				filesystem = "vfat";
 				path = "/";
 				properties = {create-destination = "true";}
